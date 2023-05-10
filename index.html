@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>ナラティブワーク</title>
+</head>
+<body class="container">
+<main class="content">
+<h1>物語を通して自分を発見する</h1>
+<div class="kv"><img src="./img/kv.jpeg" alt=""></div>
+<p>物語を語ること通して、自分のもの見方の傾向に気づいたり、自分とタイプの異なる人物のものの見方を想像してみることで、視野の広がりや考え方の柔軟性が養われます。</p>
+<p>このワークでは、主人公が人生の旅を共にする人物と共に、予測できないチャレンジにどう対応するか、どんな洞察を得るかなどについて、自由に物語を紡いでいきます。
+複数人でひとつの物語を作ったり、それぞれの物語を共有するのもおすすめです。</p>
+<h3>使い方</h3>
+<p>人物表示、チャレンジ表示のボタンをクリックすると、ランダムで画像と簡単な説明が表示されます。説明や絵柄をヒントにどんな職業の人か、何が起こったのかについて、自由に物語を入力してください。</p>
+<h3>ヒント</h3>
+<ul>
+    <li>絵柄の性別は、そのまま男性／女性として進めてもいいですし、女性／男性的性質を持った人として進めても大丈夫です。</li>
+    <li>キーワードに縛られず、絵柄から自由に発想しても、キーワードを自由に解釈して進めてもOKです。</li>
+    <li>正解、不正解はありません。自由な発想で楽しんで物語を作ってください。</li>
+</ul>
+
+<h2>主人公</h2>
+    <p>物語の主人公です。物語は、この人物の視点を通して語られます。どのような職業、日常を送っている人でしょう。</p>
+    <div id="you">クリックして主人公を表示</div>
+    <div id="echo">ここに人物と説明が表示されます。</div>
+    <div id="description1"></div>
+    <div class="freetext">物語や人物について感じたことをメモしましょう。</div>
+    <div><textarea name="shujinkou" id="insight_1" row="1"></textarea></div>
+    <div><input type="button" value="入力し直す" onclick="clearInput1('insight_1')" class="clear_b1"></div>
+
+<h2>第一のチャレンジ・イベント</h2>
+    <p>第一のチャレンジは、主人公が一人で体験するチャレンジです。何が起こったのでしょう。何をしようとしているのでしょう。</p>
+    <div id="challenge1">クリックしてチャレンジを表示</div>
+    <div id="echo3">ここにチャレンジと説明が表示されます。</div>
+    <div id="challengeDesc1Pre"></div>
+    <div class="freetext">物語やチャレンジについて感じたことをメモしましょう。</div>
+    <div><textarea name="shujinkou_c" id="insight_2" style="vertical-align:top;"></textarea>
+    <div><input type="button" value="入力し直す" onclick="clearInput2('insight_2')" class="clear_b2"></div>
+
+<h2>パートナーを得る</h2>
+    <p>第一のチャレンジを乗り越え、志を共にするパートナーが得られました。どんなご縁があったのでしょう。一緒にどうなっていきたいでしょう。</p>
+    <div id="partner">クリックしてパートナーを表示</div>
+    <div id="echo2">ここに人物と説明が表示されます。</div>
+    <p id="description2"></p>
+    <div class="freetext">物語や人物について感じたことをメモしましょう。</div>
+    <div><textarea name="partner" id="insight_3" style="vertical-align:top;"></textarea>
+    <div><input type="button" value="入力し直す" onclick="clearInput3('insight_3')" class="clear_b1"></div>
+
+<h2> パートナーと一緒のチャレンジ・イベント</h2>
+    <p>パートナーと一緒にチャレンジに立ち向かいます。どんな問題が起こって、どのように協力しあったのでしょう。何をしようとしているのでしょう。</p>
+    <div id="challenge2">クリックしてチャレンジを表示</div>
+    <div id="echo4">ここにチャレンジと説明が表示されます。</div>
+    <div id="challengeDesc2Pre"></div>
+    <div class="freetext">物語やチャレンジについて感じたことをメモしましょう。</div>
+    <div><textarea name="partner_c" id="insight_4" style="vertical-align:top;"></textarea>
+    <div><input type="button" value="入力し直す" onclick="clearInput4('insight_4')" class="clear_b2"></div>
+
+<h2>チームを作る、人を育てる</h2>
+    <p>パートナーとの協力でチャレンジを乗り越え、新しい出会いがありました。自分たちより若手です。どんなチームに育てていきたいでしょう。各人の得意不得意をどのように活かしていきますか。
+    どのようなコンフリクトが起こりそうでしょう。</p>
+    <div id="team">クリックして新しい仲間を表示</div>    
+    <div id="echo5">ここに人物と説明が表示されます。</div>
+    <p id="description3"></p>
+    <div class="freetext">物語や人物について感じたことをメモしましょう。</div>
+    <div><textarea name="team" id="insight_5" style="vertical-align:top;"></textarea>
+    <div><input type="button" value="入力し直す" onclick="clearInput5('insight_5')" class="clear_b1"></div>
+
+<h2>チームでのチャレンジ・イベント</h2>
+    <p>チームでチャレンジに立ち向かいます。どんな問題が起こって、どのように協力しあったのでしょう。何をしようとしているのでしょう。</p>
+    <div id="challenge3">クリックしてチャレンジを表示</div>
+    <div id="echo6">ここにチャレンジと説明が表示されます。</div>
+    <div id="challengeDesc3Pre"></div>
+    <div class="freetext">物語やチャレンジについて感じたことをメモしましょう。</div>
+    <div><textarea name="team_c" id="insight_6" style="vertical-align:top;"></textarea>
+    <div><input type="button" value="入力し直す" onclick="clearInput6('insight_6')" class="clear_b2"></div>
+
+<h2>未来・学び・洞察</h2>
+    <p>これまでのジャーニーの体験を踏まえ、表示されるテーマについて洞察してみましょう。主人公やチームは何を学び、これからどのようなジャーニーを経験するでしょうか。</p>
+    <div id="result">洞察を表示</div>
+    <div id="echo7">ここに結果、学びと説明が表示されます。</div>
+    <div id="descriptionRpre"></div>
+    <div class="freetext">感じたことをメモしましょう。</div>
+    <div><textarea name="learning" id="insight_7" style="vertical-align:top;"></textarea>
+    <div><input type="button" value="入力し直す" onclick="clearInput7('insight_7')" class="clear_b3"></div>
+    <p>おつかれ様でした！</p>
+    <button onclick="window.print()" id="button_print">ページを印刷する</button>
+<hr>
+<footer>(c)2023 all right reserved</footer>
+</main>
+
+<!-- jqueryがjsより先 -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- jsの紐付け -->
+<script src="./js/script.js"></script>
+
+</body>
+</html>

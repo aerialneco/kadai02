@@ -1,0 +1,265 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+.content {
+    margin: auto;
+    width: 80%;
+}
+
+h1 {
+    text-align: center;
+}
+.kv {
+    text-align: center;
+}
+
+
+#you {
+    background-color: #cc7708;
+    color: white;
+    padding: 5px;
+    width: 250px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+#you:hover {
+    background-color: #cb9123;
+}
+#you:active {
+    background-color: #b48b3d;
+}
+
+#partner {
+    background-color:  #cc7708;
+    color: white;
+    padding: 5px;
+    width: 250px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+#partner:hover {
+    background-color: #cb9123;
+}
+#partner:active {
+    background-color:  #b48b3d;
+}
+
+#team {
+    background-color:  #cc7708;
+    color: white;
+    padding: 5px;
+    width: 250px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+#team:hover {
+    background-color:  #cb9123;
+}
+#team:active {
+    background-color:  #b48b3d;
+}
+
+#challenge1 {
+    background-color: brown;
+    color: white;
+    padding: 5px;
+    width: 250px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+#challenge1:hover {
+    background-color: rgb(159, 68, 68);
+}
+#challenge1:active {
+    background-color: brown;
+}
+
+#challenge2 {
+    background-color: brown;
+    color: white;
+    padding: 5px;
+    width: 250px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+#challenge2:hover {
+    background-color: rgb(159, 68, 68);
+}
+#challenge2:active {
+    background-color: brown;
+}
+
+#challenge3 {
+    background-color: brown;
+    color: white;
+    padding: 5px;
+    width: 250px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+#challenge3:hover {
+    background-color: rgb(159, 68, 68);
+}
+#challenge3:active {
+    background-color: brown;
+}
+
+
+#result {
+    background-color: rgb(237, 173, 11);
+    color: white;
+    padding: 5px;
+    width: 250px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+#result:hover {
+    background-color: rgb(236, 178, 31);
+}
+#result:active {
+    background-color: rgb(237, 173, 11);
+}
+
+/* テキストエリア */
+#insight_1 {
+    width: 300px;
+    vertical-align: top;
+    resize: none;
+    overflow: hidden;
+    padding-bottom: 3px;
+}
+#insight_2 {
+    width: 300px;
+    vertical-align: top;
+    resize: none;
+    overflow: hidden;
+    padding-bottom: 3px;
+}
+#insight_3 {
+    width: 300px;
+    vertical-align: top;
+    resize: none;
+    overflow: hidden;
+    padding-bottom: 3px;
+}
+#insight_4 {
+    width: 300px;
+    vertical-align: top;
+    resize: none;
+    overflow: hidden;
+    padding-bottom: 3px;
+}
+#insight_5 {
+    width: 300px;
+    vertical-align: top;
+    resize: none;
+    overflow: hidden;
+    padding-bottom: 3px;
+}
+#insight_6 {
+    width: 300px;
+    vertical-align: top;
+    resize: none;
+    overflow: hidden;
+    padding-bottom: 3px;
+}
+#insight_7 {
+    width: 300px;
+    vertical-align: top;
+    resize: none;
+    overflow: hidden;
+    padding-bottom: 3px;
+}
+
+/* 画像サイズ */
+.card {
+    width: 150px;
+}
+
+h2 {
+    background-color: #330c17;
+    color: white;
+    padding: 5px 10px;
+}
+
+footer {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#echo {
+    padding-bottom: 10px;
+}
+
+/* テキストエリアのリード */
+.freetext{
+    padding-top: 10px;
+    color: #cc7708;
+}
+
+/* クリアボタン */
+.clear_b1 {
+    background-color: #cc7708;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    padding: 4px;
+    margin-top: 4px;
+}
+.clear_b1:hover {
+    background-color: rgb(236, 178, 31);
+} 
+.clear_b1:action {
+    background-color: #cc7708;
+} 
+
+.clear_b2 {
+    background-color: brown;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    padding: 4px;
+    margin-top: 4px;
+}
+.clear_b2:hover {
+    background-color:  rgb(159, 68, 68);
+}
+.clear_b2:active {
+    background-color: brown;
+}
+
+.clear_b3 {
+    background-color: rgb(237, 173, 11);
+    border: none;
+    border-radius: 3px;
+    color: white;
+    padding: 4px;
+    margin-top: 4px;
+}
+.clear_b3:hover {
+    background-color: rgb(236, 178, 31);
+}
+.clear_b3:active {
+    background-color: rgb(237, 173, 11);
+}
+
+/* 印刷ボタン */
+#button_print {
+    background-color: #330c17;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    padding: 4px;
+    margin-top: 4px;
+}
